@@ -1,0 +1,134 @@
+.splash {
+    position: relative;
+    top: 30vh;
+    font-size: 2em;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes splashAnim {
+    0% {
+        top: 30vh;
+        font-size: 2em;
+    }
+    100% {
+        top: 0;
+        font-size: 1.5em;
+    }
+}
+
+.relative {
+    position: relative;
+    top: 30vh;
+    font-size: 1em;
+
+}
+
+@keyframes relativeAnim {
+    0% {
+        top: 30vh;
+        font-size: 1em;
+    }
+    100% {
+        top: 0;
+        font-size: .75em;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+#contact {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+#title {
+    font-size: 2.5em;
+}
+
+.clear {
+    opacity: 0.0;
+}
+
+@keyframes clearAnim {
+    0% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0
+    }
+}
+
+.division-pic {
+    width: 15vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.division-pic:hover + .description {
+
+}
+
+.description {
+    display: none;
+}
+
+.objects {
+    position: relative;
+    top: 100vh;
+    margin-left: 12.5vw;
+    height: 500vh;
+
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    height: 20vh;
+}
+
+.wrap {
+    overflow: auto;
+    position: relative;
+}
+
+.divison-title {
+    display: none;
+}
+
+.division {
+    transition: position 1s;
+    float: left;
+}
+
+[id="0"] {
+
+}
+
+[id="1"] {
+    margin-top: 25vh;
+}
+
+[id="2"] {
+    margin-top: 50vh;
+}
+
+[id="3"] {
+    margin-top: 75vh;
+}
+
+[id="4"] {
+    margin-top: 100vh;
+}
+
+[id="5"] {
+    margin-top: 125vh;
+}
+
