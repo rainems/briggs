@@ -52,7 +52,6 @@ function myFunction() {
     }
 
     if (index < scroll_lengths.length && document.documentElement.scrollTop > scroll_lengths[index] -5 ) {
-        console.log(index)
         index++;
         $("#" + String(index - 1)).css({"position": "fixed", "top": "30vh", "left": String((index - 1) * 15 + 12.5) + "vw", "margin":"0" });
         $("<div class='division'> <div class='division-pic'></div> </div>").insertBefore("#" + String(index -1) )
